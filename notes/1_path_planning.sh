@@ -3,3 +3,6 @@ ros2 lifecycle nodes
 ros2 lifecycle get /map_server
 ros2 lifecycle set /map_server 1 # configure
 ros2 lifecycle set /map_server 3 # activate
+
+#checking QOS on /map
+ros2 topic info /map --verbose
